@@ -13,7 +13,7 @@ public class footer extends  url{
 	
 	
     footer_object objectrepo;
-	ExtentTest testfooter = extent.createTest("verifying footer tab");
+	ExtentTest testfooter = extent.createTest("verifying footer tab done");
 	
 	@Test(enabled=true)
 	public void Verify_Tab() throws InterruptedException {
