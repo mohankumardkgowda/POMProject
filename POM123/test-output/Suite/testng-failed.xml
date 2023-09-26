@@ -12,6 +12,17 @@
       </class> <!-- Test.Tab -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="Test.NCDR">
+        <methods>
+          <include name="beforetezt"/>
+          <include name="Verify_NCDR_AboutNCDR"/>
+          <include name="aftertezt"/>
+        </methods>
+      </class> <!-- Test.NCDR -->
+    </classes>
+  </test> <!-- Test3(failed) -->
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
       <class name="Test.header">
@@ -23,15 +34,15 @@
       </class> <!-- Test.header -->
     </classes>
   </test> <!-- Test(failed) -->
-  <test thread-count="5" parallel="tests" name="Test3(failed)">
+  <test thread-count="5" parallel="tests" name="Test5(failed)">
     <classes>
-      <class name="Test.Tab">
+      <class name="Test.footer">
         <methods>
           <include name="beforetezt"/>
           <include name="Verify_Tab"/>
           <include name="aftertezt"/>
         </methods>
-      </class> <!-- Test.Tab -->
+      </class> <!-- Test.footer -->
     </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->
